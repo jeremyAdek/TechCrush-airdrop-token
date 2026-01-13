@@ -42,3 +42,10 @@ contract Voting is Ownable {
         elections.push(newElection);
     }
 }
+
+ParserError: Function, variable, struct or modifier declaration expected.
+  --> contracts/JeremyVoting.sol:12:5:
+   |
+12 |     contract Voting is Ownable {
+   |     ^^^^^^^^
+
